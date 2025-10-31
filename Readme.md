@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ирина Петухова](https://up.htmlacademy.ru/htmlcss-individual/2/user/242326).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Лисенкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
