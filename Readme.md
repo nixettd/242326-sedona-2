@@ -2,6 +2,7 @@
 
 * Студент: [Ирина Петухова](https://up.htmlacademy.ru/htmlcss-individual/2/user/242326).
 * Наставник: [Анна Лисенкова](https://htmlacademy.ru/profile/ankhena).
+* Сайт: [Sedona by Irina Petukhova](https://nixettd.github.io/242326-sedona-2/).
 
 ---
 
