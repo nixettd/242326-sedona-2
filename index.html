@@ -10,42 +10,38 @@
       <a class="page-logo" href="index.html" aria-current="page">
           <img class="logo" src="#" alt="Логотип сайта Седона">
         </a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-current">Главная</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link nav-link-current">Главная</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">О Седоне</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">О Седоне</a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
+        <ul class="nav-user">
+          <li class="nav-user-item">
+            <a class="nav-user-link" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">Избранное</span>
+          <li class="nav-user-item">
+            <a class="nav-user-link" href="#">
+              <span class="visually-hidden">Избранное </span>
+              <span class="favorites-number">12</span>
             </a>
           </li>
         </ul>
-        <a class="button" href="#">
-          <span class="visually-hidden">Хочу сюда!</span>
-        </a>
+        <a class="btn" href="#">Хочу сюда!</a>
       </nav>
     </header>
     <main class="page-main">
       <h1 class="visually-hidden">Седона</h1>
-      <section class="hero">
-        <img
-          class="hero-image"
-          src="#"
-          alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+      <section class="hero" lang="en">
+        <img class="hero-image" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
       </section>
       <section class="advantages">
         <h2 class="advantages-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -114,40 +110,39 @@
       <section class="reservation">
         <h2 class="reservation-title">Заинтересовались?</h2>
         <p class="text">
-          Укажите предполагаемые даты поездки, и мы покажем вам лучшие
-          предложения гостиниц в Седоне
+          Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="button">Поиск гостиницы в Седоне</button>
+        <button class="btn">Поиск гостиницы в Седоне</button>
       </section>
 
     </main>
     <footer class="page-footer">
-      <section class="subscription">
-        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+      <section class="subscribe">
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="text">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
-        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="subscription-email">Укажите ваш e-mail</label>
           <input type="email" name="user-email" id="subscription-email" placeholder="Ваш e-mail" required>
-          <button class="button button-accent" type="submit">Подписаться</button>
+          <input class="btn btn-accent" type="submit" value="Подписаться">
         </form>
       </section>
-      <section class="social">
+      <section class="socials">
         <h2 class="visually-hidden">Мы в соцсетях</h2>
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="social-link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">VKontakte</span>
+        <ul class="socials-list">
+          <li class="socials-item">
+            <a class="socials-link" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">ВКонтакте</span>
             </a>
           </li>
-          <li class="social-item">
-            <a class="social-link" href="https://t.me/htmlacademy">
+          <li class="socials-item">
+            <a class="socials-link" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Telegram</span>
             </a>
           </li>
-          <li class="social-item">
-            <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+          <li class="socials-item">
+            <a class="socials-link" href="https://www.youtube.com/user/htmlacademyru">
               <span class="visually-hidden">Youtube</span>
             </a>
           </li>
@@ -155,9 +150,7 @@
       </section>
       <section class="contacts">
         <h2 class="visually-hidden">Наши контакты</h2>
-        <address class="contacts-address">
-          <a class="contacts-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </address>
+        <a class="contacts-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
       </section>
       <a class="developer-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="#" alt="Логотип HTML Academy"></a>
     </footer>
