@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
@@ -6,7 +6,7 @@
   font-display: swap;
 }
 
-@font-face{
+@font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
@@ -14,78 +14,92 @@
   font-display: swap;
 }
 
-body{
+body {
   font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
   font-size: 22px;
   line-height: 26px;
-  font-style: normal;
   font-weight: 400;
   color: #333333;
+
   background-color: #F2F2F2;
 }
 
-.page-header{
+.page-header {
   text-align: center;
 }
 
-.nav-list, .nav-user-list{
+.nav-list,
+.nav-user-list {
   list-style-type: none;
 }
 
-.nav-link, .nav-user-link{
+.nav-link,
+.nav-user-link {
   font-size: 20px;
-  font-weight: 700;
   line-height: 24px;
-  text-decoration: none;
+  font-weight: 700;
   color: #000000;
+  text-decoration: none;
 }
 
-.favorites-value{
+.favorites-value {
   font-size: 10px;
   line-height: 10px;
 }
 
-.btn{
+.main-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 130%;
+  }
+
+.btn {
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   color: #FFFFFF;
   text-transform: uppercase;
-  background-color: #756157;
   text-decoration: none;
+
+  background-color: #756157;
   border-style: none;
 }
 
-.btn-accent{
+.btn-accent {
   background-color: #82B3D3;
 }
 
-.hero{
-  background-color: #FFFFFF;
+.hero {
   text-align: center;
+
+  background-color: rgba(131, 179, 211, 0.2);
   background-image: url("../images/background-hero.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.advantages-list, .features-list{
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.advantages-list,
+.features-list {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+
   list-style-type: none;
 }
 
-.title{
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #000000;
-  text-align: center;
-}
-
-.advantages-title, .features-item-title{
+.advantages-title,
+.features-item-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -93,53 +107,128 @@ body{
   color: #000000;
 }
 
-.background-accent{
-  background-color:#82B3D3;
-}
-
-.background-accent1{
+.features-item:nth-child(2n+1) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.background-accent2{
+.background-accent {
+  background-color:#82B3D3;
+}
+
+.background-accent1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.background-accent2 {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-
-.title-accent{
+.title-accent {
   color: #FFFFFF;
 }
 
-.text{
-  text-align: center;
+.text {
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 
-.text-accent{
+.text-accent {
   color: #FFFFFF;
 }
 
-.subscribe-accent{
-background-color: #82B3D3;
-background-image: url("../images/background-subscribe.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+.filter-block {
+  color: #FFFFFF;
+
+  background-color: #82B3D3;
+  background-image: url("../images/background-filter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.socials-list{
+.breadcrumbs {
+  list-style-type: none;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.filter-list {
+  list-style-type: none;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.filter-label {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.catalog-view,
+.catalog-card-list {
+  list-style-type: none;
+}
+
+.catalog-card-link {
+  text-decoration: none;
+}
+
+.catalog-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+ }
+
+.subscribe-accent {
+  background-color: #82B3D3;
+  background-image: url("../imges/background-subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.socials-list {
   text-align: center;
   list-style-type: none;
 }
 
-.page-footer{
+.socials-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.page-footer {
   text-align: center;
 }
 
-.contacts-tel{
-  color: #000000;
+.contacts-tel {
   font-style: normal;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
+  color: #000000;
 }
